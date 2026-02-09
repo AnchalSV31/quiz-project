@@ -1,0 +1,87 @@
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.auth-card {
+    background: #ffffff;
+    width: 360px;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.auth-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.auth-subtitle {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.auth-input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    font-size: 14px;
+}
+
+.auth-input:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+.auth-btn {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #6366f1;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-btn:hover {
+    background: #4f46e5;
+}
+
+.auth-footer {
+    margin-top: 16px;
+    font-size: 14px;
+}
+
+.auth-footer a {
+    color: #6366f1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ===== ADMIN / QUIZ ===== */
+
+.quiz-card {
+    width: 700px;
+    max-width: 95%;
+}
+
+.question-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    background: #f8fafc;
+}
